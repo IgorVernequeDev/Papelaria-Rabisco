@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Papelaria Rabisco - Projeto Escolar em React
+Bem-vindo ao projeto escolar "Papelaria Rabisco", uma aplicação web desenvolvida em React para uma loja virtual de papelaria. Este projeto inclui páginas como a página inicial, a página de produtos e a página de contato. Abaixo estão instruções para configurar o ambiente de desenvolvimento, executar o projeto e explorar suas funcionalidades.
 
-## Getting Started
+Configuração do Ambiente:
+Antes de começar, certifique-se de ter o Node.js instalado na sua máquina. Você pode baixá-lo em nodejs.org.
 
-First, run the development server:
+Clone o repositório:
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Instale as dependências:
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para executar o projeto localmente:
+npm start
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Isso iniciará o servidor de desenvolvimento. Abra http://localhost:3000 no seu navegador para ver a aplicação.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+A estrutura do projeto está organizada da seguinte forma:
+public/: Contém arquivos estáticos públicos.
+src/: Contém o código-fonte da aplicação.
+components/: Componentes React reutilizáveis.
+pages/: Páginas da aplicação (Home.jsx, Produtos.jsx, Contato.jsx, etc.).
+App.jsx: Componente principal que define as rotas da aplicação.
+index.js: Ponto de entrada da aplicação React.
+Funcionalidades
+Página Inicial (Home)
+A página inicial apresenta uma visão geral da loja "Papelaria Rabisco", incluindo informações sobre a empresa e seus serviços.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Página de Produtos (Produtos)
+Na página de produtos, você encontrará uma lista dos produtos disponíveis na papelaria Rabisco. Cada produto exibe seu nome, descrição, preço e quantidade em estoque.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Página de Contato (Contato)
+A página de contato fornece informações de contato da loja, como endereço, telefone e e-mail.
 
-## Learn More
+Como Contribuir:
+Sinta-se à vontade para contribuir com melhorias neste projeto. Para isso, siga estes passos:
 
-To learn more about Next.js, take a look at the following resources:
+Faça um fork do repositório e crie uma nova branch para sua contribuição.
+Implemente suas alterações e testes.
+Envie um pull request descrevendo suas modificações.
+Tecnologias Utilizadas
+React
+Axios (para requisições HTTP)
+Bootstrap (para estilos)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Obrigado por explorar nosso projeto da Papelaria Rabisco!
