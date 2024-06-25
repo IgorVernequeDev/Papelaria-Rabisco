@@ -33,6 +33,8 @@ Na página de produtos, você encontrará uma lista dos produtos disponíveis na
 Página de Contato (Contato)
 A página de contato fornece informações de contato da loja, como endereço, telefone e e-mail.
 
+Além disso, importe o banco de dados presente na pasta Back-end para funcionar.
+
 Como Contribuir:
 Sinta-se à vontade para contribuir com melhorias neste projeto. Para isso, siga estes passos:
 
