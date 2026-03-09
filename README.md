@@ -1,49 +1,61 @@
-Papelaria Rabisco - Projeto Escolar em React
-Bem-vindo ao projeto escolar "Papelaria Rabisco", uma aplicação web desenvolvida em React para uma loja virtual de papelaria. Este projeto inclui páginas como a página inicial, a página de produtos e a página de contato. Abaixo estão instruções para configurar o ambiente de desenvolvimento, executar o projeto e explorar suas funcionalidades.
+# 📖 Papelaria Rabisco
 
-Configuração do Ambiente:
-Antes de começar, certifique-se de ter o Node.js instalado na sua máquina. Você pode baixá-lo em nodejs.org.
+Sistema web desenvolvido para gerenciamento de uma papelaria, permitindo organizar produtos, controlar estoque e facilitar o processo de vendas.
+
+O Papelaria Rabisco foi criado com o objetivo de oferecer uma solução simples e eficiente para administração de uma papelaria, permitindo o cadastro e gerenciamento de itens como materiais escolares, produtos de escritório e outros artigos vendidos na loja.
+
+## 🚀 Funcionalidades
+
+* 🛍️ Cadastro de produtos de papelaria
+* 📦 Controle de estoque
+* 📝 Gerenciamento de itens disponíveis para venda
+* 🔎 Visualização e organização de produtos
+* ⚙️ Estrutura pensada para facilitar futuras expansões do sistema
+* 💻 Interface simples e funcional
+* 
+## 🛠️ Tecnologias utilizadas
+
+![React](https://img.shields.io/badge/React-library-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS3](https://img.shields.io/badge/CSS3-style-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-backend-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+## 📦 Instalação
 
 Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+
+```bash
+git clone https://github.com/IgorVernequeDev/Papelaria-Rabisco.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd Papelaria-Rabisco
+```
 
 Instale as dependências:
+
+```bash
 npm install
+```
 
-Para executar o projeto localmente:
+Execute o projeto:
+
+```bash
 npm start
+```
 
-Isso iniciará o servidor de desenvolvimento. Abra http://localhost:3000 no seu navegador para ver a aplicação.
+Depois disso, o sistema estará disponível no navegador para utilização e testes.
 
-A estrutura do projeto está organizada da seguinte forma:
-public/: Contém arquivos estáticos públicos.
-src/: Contém o código-fonte da aplicação.
-components/: Componentes React reutilizáveis.
-pages/: Páginas da aplicação (Home.jsx, Produtos.jsx, Contato.jsx, etc.).
-App.jsx: Componente principal que define as rotas da aplicação.
-index.js: Ponto de entrada da aplicação React.
-Funcionalidades
-Página Inicial (Home)
-A página inicial apresenta uma visão geral da loja "Papelaria Rabisco", incluindo informações sobre a empresa e seus serviços.
+## 🎯 Objetivo do projeto
 
-Página de Produtos (Produtos)
-Na página de produtos, você encontrará uma lista dos produtos disponíveis na papelaria Rabisco. Cada produto exibe seu nome, descrição, preço e quantidade em estoque.
+* Praticar desenvolvimento de aplicações web
+* Criar um sistema simples de gerenciamento para papelarias
+* Trabalhar com estrutura de organização de projetos
+* Aplicar conceitos de frontend e backend
 
-Página de Contato (Contato)
-A página de contato fornece informações de contato da loja, como endereço, telefone e e-mail.
+## 👨‍💻 Autor
 
-Além disso, importe o banco de dados presente na pasta Back-end para funcionar.
-
-Como Contribuir:
-Sinta-se à vontade para contribuir com melhorias neste projeto. Para isso, siga estes passos:
-
-Faça um fork do repositório e crie uma nova branch para sua contribuição.
-Implemente suas alterações e testes.
-Envie um pull request descrevendo suas modificações.
-Tecnologias Utilizadas
-React
-Axios (para requisições HTTP)
-Bootstrap (para estilos)
-
-Obrigado por explorar nosso projeto da Papelaria Rabisco!
+Desenvolvido por Igor Verneque
