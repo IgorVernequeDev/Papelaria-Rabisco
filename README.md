@@ -44,7 +44,7 @@ npm install
 Execute o projeto:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Depois disso, o sistema estará disponível no navegador para utilização e testes.
