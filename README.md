@@ -12,7 +12,7 @@ O Papelaria Rabisco foi criado com o objetivo de oferecer uma solução simples 
 * 🔎 Visualização e organização de produtos
 * ⚙️ Estrutura pensada para facilitar futuras expansões do sistema
 * 💻 Interface simples e funcional
-* 
+
 ## 🛠️ Tecnologias utilizadas
 
 ![React](https://img.shields.io/badge/React-library-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
