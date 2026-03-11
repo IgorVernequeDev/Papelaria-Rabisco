@@ -1,7 +1,5 @@
 # 📖 Papelaria Rabisco
 
-Sistema web desenvolvido para gerenciamento de uma papelaria, permitindo organizar produtos, controlar estoque e facilitar o processo de vendas.
-
 O Papelaria Rabisco foi criado com o objetivo de oferecer uma solução simples e eficiente para administração de uma papelaria, permitindo o cadastro e gerenciamento de itens como materiais escolares, produtos de escritório e outros artigos vendidos na loja.
 
 ![Imagem de capa](public/fotocapa.png)
